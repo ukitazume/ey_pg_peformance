@@ -7,4 +7,8 @@ class ApplicationController < ActionController::Base
     Hoge.create_with_current
     render :text => 'ok'
   end
+
+  def load_test_auth
+    render :text => '42'
+  end
 end

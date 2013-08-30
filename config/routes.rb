@@ -4,6 +4,7 @@ EyPgPeformance::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'application#index'
+  get 'mu-1234-cafe-5678-babe' => 'application#load_test_auth'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
